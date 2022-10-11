@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "KannadaMNIST"
 version = "0.0.1"
 authors = [
-  { name="Elena Patyukova", email="example@google.com" },
+  { name="EP", email="ep@secret.com" },
 ]
 description = "Kannada handwritten digits classification model"
 readme = "README.md"
