@@ -4,7 +4,7 @@ This package contains CNN model for Kannada digits classification https://www.ka
 
 I use hand-build CNN, SGD optimiser with learning rate scheduling (StepLR) and early stopping. I also use data augmentation (rotation, shift-crop-resize, affine) to improve generalisation.
 
-In order to improve accuracy of prediction pseudo-labeling is implemented as advised in discussion of the competition. Also soft ensembling of three models trained with different portions of the test set attached to the initial training set is used (slightly improves the score). I also tired to use SWA (https://pytorch.org/blog/pytorch-1.6-now-includes-stochastic-weight-averaging/) but it did not work. Cross-validation was not used due to the limited availability of computational resources.
+In order to improve accuracy of prediction pseudo-labeling is implemented as advised in discussion of the competition. Also soft voting of three models trained with different portions of the test set attached to the initial training set is used (slightly improves the score). I also tired to use SWA (https://pytorch.org/blog/pytorch-1.6-now-includes-stochastic-weight-averaging/) but it did not work. Cross-validation was not used due to the limited availability of computational resources.
 
 Best accuracy on Kaggle which I was able to achieve is 98.280% (public) and 98.2% (private).
 
