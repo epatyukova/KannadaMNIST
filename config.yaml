@@ -1,0 +1,25 @@
+---
+data:
+  val_frac: 0.16
+  batch_size: 64
+  train_data: data/train.csv
+  test_data: data/test.csv
+  rotation_angle: 10
+  affine: 10
+  resizecrop_size: 28
+  resizecrop_scale: 0.9
+  resizecrop_ratio: 0.75
+
+train:
+  epochs: 40
+  use_testset: True
+  num_iter_on_testset: 3
+  patience: 10
+  test_every_n_epochs: 2
+
+eval:
+  ensemble: True
+
+seed:
+  fix_random_seed: True
+  random_seed: 12

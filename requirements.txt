@@ -1,8 +1,10 @@
 torch
-numpy>=1.12.1
-pandas>=0.19.2
-matplotlib
+torchvision
+scipy
+numpy
+pandas
 pyyaml
 seaborn
-sklearn
-torchvision
+datetime
+pyyaml
+
